@@ -50,9 +50,7 @@
       }
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
@@ -62,9 +60,7 @@
       line-height: 1.65;
     }
 
-    a {
-      color: var(--accent);
-    }
+    a { color: var(--accent); }
 
     .wrap {
       width: min(1080px, calc(100% - 40px));
@@ -103,9 +99,7 @@
       text-decoration: none;
     }
 
-    nav a:hover {
-      color: var(--accent);
-    }
+    nav a:hover { color: var(--accent); }
 
     .hero {
       padding: 72px 0 56px;
@@ -196,9 +190,7 @@
       background: var(--paper);
     }
 
-    main section:nth-child(even) {
-      background: var(--soft);
-    }
+    main section:nth-child(even) { background: var(--soft); }
 
     h2 {
       margin: 0 0 18px;
@@ -244,9 +236,7 @@
       object-fit: cover;
     }
 
-    .photo-note {
-      max-width: 520px;
-    }
+    .photo-note { max-width: 520px; }
 
     .grid {
       display: grid;
@@ -365,43 +355,25 @@
         display: block;
       }
 
-      nav {
-        margin-top: 12px;
-      }
+      nav { margin-top: 12px; }
 
-      .quick {
-        margin-top: 34px;
-      }
+      .quick { margin-top: 34px; }
 
-      .photo-note {
-        margin-top: 24px;
-      }
+      .photo-note { margin-top: 24px; }
 
-      .grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
-      .work-item {
-        grid-template-columns: 1fr;
-      }
+      .work-item { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 560px) {
-      .wrap {
-        width: min(100% - 28px, 1080px);
-      }
+      .wrap { width: min(100% - 28px, 1080px); }
 
-      .hero {
-        padding: 48px 0 40px;
-      }
+      .hero { padding: 48px 0 40px; }
 
-      .grid {
-        grid-template-columns: 1fr;
-      }
+      .grid { grid-template-columns: 1fr; }
 
-      .button {
-        width: 100%;
-      }
+      .button { width: 100%; }
     }
   </style>
 </head>
@@ -487,7 +459,7 @@
           </article>
           <article class="card">
             <h3>Privacy-Preserving Data</h3>
-            <p>Privacy enhancing technologies (PETs) and responsible data sharing.</p>
+            <p>Privacy-enhancing technologies (PETs), privacy-aware synthetic data, and responsible data sharing.</p>
           </article>
         </div>
       </div>
@@ -531,6 +503,7 @@
         <div class="contact-box">
           <form name="collaboration-request" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="collaboration-request">
+            <input type="hidden" name="subject" value="New collaboration request from Dr. Basheer Kalash website">
             <label>
               Name
               <input type="text" name="name" autocomplete="name" required>
